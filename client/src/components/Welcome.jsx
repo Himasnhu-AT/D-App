@@ -25,6 +25,10 @@ const Welcome = () => {
 
     };
 
+    const handleSumit = async () => {
+
+    };
+
     return (
         <div className="flex w-full justify-center items-center">
             <div className="flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
@@ -33,7 +37,7 @@ const Welcome = () => {
                         Send Crypto <br /> across the world
                     </h1>
                     <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
-                        Explore the crypto world. Buy and sell cryptocurrencies easily on Krypto.
+                        Explore the crypto world. Buy and sell cryptocurrencies easily on WebTrinity.
                     </p>
                     <button type="button" onClick={connectWallet} className="flex flex-row justify-center items-center my-5 bg-[#2953e3] p-3 rounded-full cursor-pointer hover:bg-[#2546bd]">
                         <p className="text-white text-base font-semibold">Connect Wallet</p>
